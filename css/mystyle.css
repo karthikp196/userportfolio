@@ -1,0 +1,71 @@
+.responsive {
+    width:100%;
+    height: auto;
+}
+
+.wrk_tit p {
+    font-size: 24px;
+    color: #262626;
+    font-weight: 900;
+}
+
+.wrk_desc p {
+    font-size: 17px;
+    padding: 10px 0;
+    color:#424242;
+}
+
+.wrk_desc a {
+    padding: 3px 6px;
+    background: #17bed2;
+    color: white;
+    border-radius: 2px;
+}
+
+.work_tab {
+    padding: 30px 20px;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,.11);
+    border-radius: 7px;
+}
+
+.item {
+    position: relative;
+}
+
+.owl-prev span{
+    font-size: 45px;
+    position: absolute;
+    top: 43%;
+    left: -50px;
+    color: #17bed2;
+}
+
+.owl-prev span::before {
+    content: '';
+    width: 180%;
+    height: 4px;
+    top: 30px;
+    color: black;
+    background: #17bed2;
+    position: absolute;
+    left: 5px;
+}
+
+.owl-next span{
+    font-size: 45px;
+    position: absolute;
+    top: 43%;
+    right: -50px;
+    color:#17bed2;
+}
+
+.owl-next span::before {
+    content: '';
+    width: 180%;
+    height: 4px;
+    top: 30px;
+    color: black;
+    background: #17bed2;
+    position: absolute;
+    right: 5px;
+}

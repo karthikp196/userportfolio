@@ -1,0 +1,40 @@
+
+
+.into {
+    position: relative;
+}
+
+.mark_canc {
+    position: absolute;
+    right: -277px;
+    top: -96px;
+}
+
+.mark_canc i {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline:none;
+    border:1px solid gray;
+    outline-color: Gray !important;
+}
+
+.responsive {
+    width:100%;
+    height: auto;
+}
+
+.img_disp {
+    padding:20px;
+    border:1px solid #fff;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form_up {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+}
